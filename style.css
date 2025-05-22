@@ -1,0 +1,62 @@
+body {
+    background-color: #ffeef8;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff0f6;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 192, 203, 0.5);
+    border: 3px dashed #ffa6c9;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff5da2;
+}
+
+button {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+.productos {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.producto {
+    background-color: #ffe6f0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ffb6c1;
+    font-size: 16px;
+}
+
+#totalPrecio, #educacionCheck {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff4081;
+}
